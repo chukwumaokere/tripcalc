@@ -8,10 +8,10 @@ $totalCost = round($gallons * $pricePerGallon, 2);
 echo "Total Cost = $$totalCost";
 
 
-$servername = 'localhost';
-$username   = 'root';
-$password   = '';
-$dbname     = 'trip_calculator';
+$servername = '66.228.53.178';
+$username   = 'chukwuma';
+$password   = 'Z_Q7tM"VQaGyqx3n';
+$dbname     = 'chukwuma_trip_calculator';
 
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //shows errors
